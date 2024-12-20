@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Anurag Sharma</title>
     <style>
         *{
             margin: 0;
@@ -15,6 +15,8 @@
 
         .tile{
 font-family:Verdana, Geneva, Tahoma, sans-serif;
+margin-left: 50px;
+margin-top: 10px;
         }
         body{
             background: #000000;
@@ -95,60 +97,20 @@ text-decoration-color: #fff;
     left: 35%;
     display: none;
     border: 5px solid black;
-    position: fixed;
+}
+.resimg{
+    z-index: 0;
 }
 .X{
     height: 33px;
     width: 51px;
-    position: fixed;
+    position: absolute;
     z-index: 1;
-font-size: xx-large;
+font-size:large;
     left: 62%;
     
 }
-.skill{
-    width: 160px;
-    height: 160px;
-    position: relative;
-}
-.outer{
-    height: 160px;
-    width: 160px;
-    border-radius: 50%;
-    padding: 20px;
-    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
-    -6px -px 10px -1px rgba(255,255,255,0.7)
-}
-.inner{
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-#number{
-    font-weight: 600px;
-    color: #ffffff;
-}
-circle{
-      fill: none;
-      stroke: url(#GradientColor);
-      stroke-width: 20px;
-      stroke-dasharray: 472;
-      stroke-dashoffset: 472;
-      animation: anim 2s linear forwards;
-}
-@keyframes anim{
-    100%{
-        stroke-dashoffset: 200;
-    }
-}
-svg{
-    position: absolute;
-    top: 0;
-    left: 0;
-}
+
 .pg{
     display: flex;
     flex-wrap: wrap;
@@ -226,235 +188,38 @@ video{
     background-color: rgb(210, 245, 245);
     border-radius: 50px;
 }
-
-* {
-            margin: 0;
-            padding: 0;
-            font-family: 'Poppins', sans-serif;
-            box-sizing: border-box;
-        }
-
-        body {
-            background: #000000;
-            color: #fff;
-        }
-
-        #header {
-            margin-top: 20px;
-            width: 100%;
-            height: 10vh;
-            background-size: cover;
-            background-position: center;
-        }
-
-        .img {
-            height: 100vh;
-            width: 125vh;
-            border-radius: 800px;
-            margin-left: 593px;
-        }
-
-        .hj {
-            font-size: 4rem;
-            margin-top: 100px;
-            margin-left: 20px;
-        }
-
-        span {
-            color: rgb(142, 3, 3);
-            display: inline-flex;
-            align-items: center;
-            font-size: 120px;
-        }
-
-        span::after {
-            content: '';
-            display: inline-block;
-            width: 3px;
-            background-color: brown;
-            margin-left: 4px;
-        }
-
-        h1 span::after {
-            height: 150px;
-        }
-
-        .head {
-            padding: 10px;
-            color: #000000;
-            display: flex;
-            justify-content: space-between;
-            height: 60px;
-            background-color: rgb(179, 175, 175);
-        }
-
-        .ul {
-            display: flex;
-            justify-content: space-between;
-            list-style: none;
-        }
-
-        .li {
-            height: 20px;
-            width: 100px;
-            background-color: rgb(179, 175, 175);
-            color: #ffffff;
-            margin: 10px;
-            font-size: large;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-weight: bolder;
-            text-decoration: none;
-        }
-
-        .li:hover {
-            color: red;
-            cursor: pointer;
-        }
-
-        .immg {
-            position: absolute;
-            left: 35%;
-            display: none;
-            border: 5px solid black;
-            position: fixed;
-        }
-
-        .X {
-            height: 33px;
-            width: 51px;
-            position: fixed;
-            z-index: 1;
-            font-size: xx-large;
-            left: 62%;
-        }
-
-        .skill {
-            width: 160px;
-            height: 160px;
-            position: relative;
-        }
-
-        .outer {
-            height: 160px;
-            width: 160px;
-            border-radius: 50%;
-            padding: 20px;
-            box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
-            -6px -px 10px -1px rgba(255,255,255,0.7)
-        }
-
-        .inner {
-            height: 120px;
-            width: 120px;
-            border-radius: 50%;
-            align-items: center;
-            display: flex;
-            justify-content: center;
-        }
-
-        #number {
-            font-weight: 600px;
-            color: #ffffff;
-        }
-
-        circle {
-            fill: none;
-            stroke: url(#GradientColor);
-            stroke-width: 20px;
-            stroke-dasharray: 472;
-            stroke-dashoffset: 472;
-            animation: anim 2s linear forwards;
-        }
-
-        @keyframes anim {
-            100% {
-                stroke-dashoffset: 200;
-            }
-        }
-
-        svg {
-            position: absolute;
-            top: 0;
-            left: 0;
-        }
-
-        .pg {
-            display: flex;
-            flex-wrap: wrap;
-            margin-top: 30px;
-        }
-
-        .provid {
-            height: 450px;
-            width: 380px;
-            background: linear-gradient(180deg, rgb(196, 177, 177), rgb(34, 192, 176));
-            margin-left: 100px;
-            border-radius: 50px;
-            padding: 10px;
-        }
-
-        video {
-            cursor: pointer;
-        }
-
-        .form {
-            display: flex;
-            flex-direction: column;
-        }
-
-        #name, #email, #mess {
-            width: 100%;
-            margin-bottom: 20px;
-            padding: 10px;
-            border: none;
-            border-radius: 8px;
-            font-size: x-large;
-            background-color: rgb(24, 255, 178);
-        }
-
-        #mess {
-            height: 80px;
-            background-color: rgb(24, 244, 171);
-        }
-
-        #button {
-            color: #fff;
-            background-color: rgb(0, 0, 0);
-            font-size: x-large;
-            margin: 0 auto;
-            border-radius: 8px;
-            width: 100px;
-        }
-
-        #button:hover {
-            background-color: green;
-        }
-
-        .cwn {
-            margin: 50px auto;
-            height: 390px;
-            padding: 50px;
-            width: 520px;
-            background-color: rgb(210, 245, 245);
-            border-radius: 50px;
-        }
-
+    
         .logo {
             display: flex;
             justify-content: space-around;
             margin: 20px 0;
         }
         .progall{
-            margin-top: 50px; font-size: 80px; margin-left: 430px; color: rgb(142, 3, 3); font-family: Verdana, Geneva, Tahoma, sans-serif; margin-bottom: 50px;
+            margin-top: 350px; font-size: 80px; margin-left: 430px; color: rgb(142, 3, 3); font-family: Verdana, Geneva, Tahoma, sans-serif; margin-bottom: 50px;
         }
         .cont{
             margin-top: 40px; font-size: 70px; color: rgb(142, 3, 3); margin-left: 550px;
         }
         @media only screen and (max-width: 768px) {
+            video{
+                height:200px;
+                width: 200px;
+            }
+            h1 span::after {
+    height: 50px;
+}
             .head {
                 flex-direction: column;
                 align-items: center;
                 text-align: center;
+            }
+            .progall{
+                margin-top: 10px;
+            }
+            .immg{
+                height: 300px;
+                width: 30px;
+                left: 0%;
             }
 
             .ul {
@@ -478,6 +243,14 @@ video{
             span {
                 font-size: 2.5rem;
             }
+            #th1,#th2,#th3{
+                font-size: small;
+            }
+            .resimg{
+                width: 300px;
+                height: 400px;
+                top: 30%;
+            }
 
             .pg {
                 flex-direction: column;
@@ -485,8 +258,9 @@ video{
             }
 
             .provid {
-                width: 90%;
+                width: 70%;
                 margin: 20px 0;
+              
             }
 
             .cwn {
@@ -504,6 +278,9 @@ video{
                 margin-left: 0;
                 font-size: 2rem;
             }
+            #name,#email,#mess{
+                width: 200px;
+            }
         }
 
     </style>
@@ -512,16 +289,16 @@ video{
 <body style="padding: 0; margin: 0;">
     
     <div class="immg">
-        <button class="X" style="margin-left: 50px; cursor: pointer;">X</button>
+        <button class="X" style="margin-left: 50px; cursor: pointer; background-color: red;">Close</button>
 
-        <img src="anures.png" alt="" height="700px" width="500px">
+        <img src="assets/anures.png" alt="" height="700px" width="500px" class="resimg">
     </div>
-    <div class="head" style="width: 100%; height: 80px; background-color: black; color: rgb(142, 3, 3);; font-size: 40px;" ><h1 class="tile">Anurag's Portfolio </h1>
+    <div class="head" style="width: 100%; height: 80px; background-color: black; color: rgb(142, 3, 3);; font-size: 40px;" ><h1 class="tile">Anurag Sharma</h1>
     
     </div>
     
     <div id="header">
-         <img src="anuport.jpg" alt="" class="img">
+         <img src="assets/anuport.jpg" alt="" class="img">
     </div>
     <div>    <h1 class="hj">I am <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="span"></span></h1>
     </div>
@@ -541,16 +318,16 @@ video{
 
    <div class="pg">
     <div class="provid">
-        <video src="Document and 3 more pages - Personal - Microsoft​ Edge 2024-10-18 22-11-27.mp4" controls height="250px" width="350px" style="border-radius: 50px;" autoplay loop id="vid"></video>
-        <h2 style="color: rgb(0, 0, 0); text-align: center;">This project is based on expense tracking. In which you can easily add your daily expense. Skills that i have used is HTML,CSS,JS and Json</h2>
+        <video src="assets/Document and 3 more pages - Personal - Microsoft_ Edge 2024-10-18 22-11-27.mp4" controls height="250px" width="350px" style="border-radius: 50px;" autoplay loop id="vid"></video>
+        <h2 style="color: rgb(0, 0, 0); text-align: center;" id="th1">This project is based on expense tracking. In which you can easily add your daily expense. Skills that i have used is HTML,CSS,JS and Json</h2>
     </div>
     <div class="provid">
-        <video src="Document - Google Chrome 2024-05-16 12-31-11.mp4" controls height="250px" width="350px" style="border-radius: 50px;" id="vid" autoplay loop></video>
-        <h2 style="color: rgb(0, 0, 0); text-align: center;">This project is based on weather forecating in which you can easily check weather of your city. Skills that i have use is HTML,CSS, JS, use web api to fetch data.</h2>
+        <video src="assets/Document - Google Chrome 2024-05-16 12-31-11 (1).mp4" controls height="250px" width="350px" style="border-radius: 50px;" id="vid" autoplay loop></video>
+        <h2 style="color: rgb(0, 0, 0); text-align: center;" id="th2">This project is based on weather forecating in which you can easily check weather of your city. Skills that i have use is HTML,CSS, JS, use web api to fetch data.</h2>
     </div>
     <div class="provid">
-        <video src="phonebook python - GDB online Debugger _ Code, Compile, Run, Debug online C, C++ and 4 more pages - Personal - Microsoft​ Edge 2024-09-21 17-29-25.mp4"id="vid" controls height="250px" width="350px" style="border-radius: 50px;" autoplay loop></video>
-        <h2 style="color: rgb(0, 0, 0); text-align: center;">This project is phonebook. In which you can add, delete, search contacts. I use Python skills in this project.</h2>
+        <video src="assets/phonebook python - GDB online Debugger _ Code, Compile, Run, Debug online C, C and 4 more pages - Personal - Microsoft_ Edge 2024-09-21 17-28-48.mp4"id="vid" controls height="250px" width="350px" style="border-radius: 50px;" autoplay loop></video>
+        <h2 style="color: rgb(0, 0, 0); text-align: center;" id="th3">This project is phonebook. In which you can add, delete, search contacts. I use Python skills in this project.</h2>
     </div>
    </div>
    <h1 class="cont">Contact Me</h1>
@@ -566,9 +343,9 @@ video{
     </form>
    </div>
    <div class="logo" style="display: flex; justify-content: space-around;">
-   <a href="https://www.linkedin.com/feed/" target="_blank"><img src="inlogo2.jpeg" alt="" class="inlogo" height="50px" ></a>
-   <a href="https://github.com/" target="_blank"><img src="git1.jpeg" alt="" class="inlogo" height="50px" ></a>
-   <a href="https://www.instagram.com/anu.sharma2006/?next=%2F"><img src="iglogo.webp" alt="" class="inlogo" height="50px"></a>
+   <a href="https://www.linkedin.com/feed/" target="_blank"><img src="assets/inlogo2.jpeg" alt="" class="inlogo" height="50px" ></a>
+   <a href="https://github.com/" target="_blank"><img src="assets/git1.jpeg" alt="" class="inlogo" height="50px" ></a>
+   <a href="https://www.instagram.com/anu.sharma2006/?next=%2F"><img src="assets/iglogo.webp" alt="" class="inlogo" height="50px"></a>
    </div>
 </body>
 <script>
@@ -582,7 +359,7 @@ x.addEventListener('click',()=>{
     immg.style.display='none';
 })
     const span=document.querySelector('.span');
-    let arr=['Developer.','Student.','Coder.','Hacker.'];
+    let arr=['Developer.','Student.','Coder.'];
     let i=0;
     let j=0;
     let count=0;
@@ -603,12 +380,12 @@ x.addEventListener('click',()=>{
         count=0;
         span.innerText='';
         }
-        if(i===4)
+        if(i===3)
         {
             i=0;
             
         }
-    },600)
+    },400)
     var y = document.getElementById("vid").autoplay;
 </script>
 </html>
